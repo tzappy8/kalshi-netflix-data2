@@ -1,0 +1,12 @@
+{
+ "_help": "Facts about NEW movies the model can't get from the data. Add a line per new movie each week (release = the day it came out on Netflix). Unknown fields default to 0. Older movies need nothing here.",
+ "titles": {
+  "Tyler Perry's The Gospel of Christmas": {"release": "2026-11-11", "original": 1},
+  "Reminders of Him": {"release": "2026-11-10", "theatrical": 1},
+  "Heartland": {"release": "2026-11-13", "original": 1},
+  "The Christmas Switch": {"release": "2026-11-12", "original": 1, "non_english": 1},
+  "Funny Money: The Dane Cook Story": {"release": "2026-11-06"},
+  "Carolina Caroline": {},
+  "Cry Macho": {"catalog": 1}
+ }
+}
