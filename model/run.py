@@ -52,7 +52,9 @@ week_end = close_day - dt.timedelta(days=1)                                   # 
 week_start = week_end - dt.timedelta(days=6)
 kk = k[k.event == event]
 last_check = kk.checked_at.max()
-px = kk[kk.checked_at == last_check].copy()
+px = kk[kk.checked_at >= last_check - pd.Timedelta(minutes=5)].copy()   # latest snapshot (both log files)
+px["has_size"] = px["yes_ask_size"].notna() if "yes_ask_size" in px else False
+px = px.sort_values(["checked_at", "has_size"]).drop_duplicates("title", keep="last")
 for c in ("yes_bid", "yes_ask", "volume", "yes_bid_size", "yes_ask_size"):
     px[c] = pd.to_numeric(px[c], errors="coerce") if c in px else np.nan
 px[["yes_bid", "yes_ask", "volume"]] = px[["yes_bid", "yes_ask", "volume"]].fillna(0)
