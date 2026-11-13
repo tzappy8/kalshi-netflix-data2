@@ -3,7 +3,7 @@
   "event": "KXNETFLIXRANKMOVIE-26NOV16",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "prices_at": "2026-11-13 16:30:02",
+  "prices_at": "2026-11-13 18:30:27",
   "days_obs": "[datetime.date(2026, 11, 9), datetime.date(2026, 11, 10), datetime.date(2026, 11, 11), datetime.date(2026, 11, 12)]"
  },
  "rows": [
@@ -17,11 +17,11 @@
    "w": 0.3570719076,
    "p_stage1": 0.161456017,
    "p_model": 0.356572,
-   "bid": 0.18,
-   "ask": 0.22,
-   "bid_size": 30.0,
-   "ask_size": 5.0,
-   "volume": 1953.06,
+   "bid": 0.14,
+   "ask": 0.18,
+   "bid_size": 22.0,
+   "ask_size": 1.0,
+   "volume": 2033.07,
    "flag_side": "Yes"
   },
   {
@@ -34,11 +34,11 @@
    "w": 0.0,
    "p_stage1": 0.2764084082,
    "p_model": 0.355796,
-   "bid": 0.26,
-   "ask": 0.29,
-   "bid_size": 19.83,
-   "ask_size": 127.0,
-   "volume": 2403.62,
+   "bid": 0.05,
+   "ask": 0.08,
+   "bid_size": 1400.0,
+   "ask_size": 132.0,
+   "volume": 2861.3,
    "flag_side": ""
   },
   {
@@ -51,12 +51,12 @@
    "w": 0.490856295,
    "p_stage1": 0.0606334622,
    "p_model": 0.239978,
-   "bid": 0.33,
-   "ask": 0.36,
-   "bid_size": 125.0,
-   "ask_size": 31.0,
-   "volume": 2075.09,
-   "flag_side": ""
+   "bid": 0.35,
+   "ask": 0.38,
+   "bid_size": 31.0,
+   "ask_size": 5.0,
+   "volume": 2101.66,
+   "flag_side": "No"
   },
   {
    "title": "Funny Money: The Dane Cook Story",
@@ -71,7 +71,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 2475.37,
+   "ask_size": 2481.37,
    "volume": 109.4,
    "flag_side": ""
   },
@@ -224,7 +224,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 1763.41,
+   "ask_size": 1769.41,
    "volume": 2014.48,
    "flag_side": ""
   },
@@ -241,7 +241,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 2845.45,
+   "ask_size": 2851.45,
    "volume": 496.55,
    "flag_side": ""
   },
@@ -326,7 +326,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 5497.02,
+   "ask_size": 5503.02,
    "volume": 66.98,
    "flag_side": ""
   },
@@ -343,7 +343,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 5497.0,
+   "ask_size": 5503.0,
    "volume": 67.0,
    "flag_side": ""
   },
@@ -383,7 +383,8 @@
   }
  ],
  "flags": [
-  "Buy Yes on Tyler Perry's The Gospel of Christmas: model 36% vs 22\u00a2 to buy (14 pts). 2 day(s) of daily data, best daily rank #1. Thin: only 5 contracts at that price."
+  "Buy Yes on Tyler Perry's The Gospel of Christmas: model 36% vs 18\u00a2 to buy (18 pts). 2 day(s) of daily data, best daily rank #1. Thin: only 1 contract at that price.",
+  "Buy No on Reminders of Him: model 76% vs 65\u00a2 to buy (11 pts). 3 day(s) of daily data, best daily rank #1. 31 contracts at that price."
  ],
  "paper": {
   "trades": 1,
