@@ -491,10 +491,10 @@ A Million Ways to Die in the West,2024-05-19,4911
 A Million Ways to Die in the West,2024-05-26,5826
 A Million Ways to Die in the West,2024-06-02,11609
 A Million Ways to Die in the West,2024-06-09,33312
-A Not So Merry Christmas,2022-12-04,0
-A Not So Merry Christmas,2022-12-11,0
-A Not So Merry Christmas,2022-12-18,0
-A Not So Merry Christmas,2022-12-25,0
+A Not So Merry Christmas,2022-12-04,
+A Not So Merry Christmas,2022-12-11,
+A Not So Merry Christmas,2022-12-18,
+A Not So Merry Christmas,2022-12-25,
 A Perfect Pairing,2022-05-01,0
 A Perfect Pairing,2022-05-08,0
 A Perfect Pairing,2022-05-15,0
@@ -1024,11 +1024,11 @@ Anna,2024-04-07,103
 Anna,2024-04-14,130
 Anna,2024-04-21,135
 Anna,2024-04-28,158
-Anna Nicole Smith: You Don't Know Me,2023-04-30,0
-Anna Nicole Smith: You Don't Know Me,2023-05-07,0
-Anna Nicole Smith: You Don't Know Me,2023-05-14,0
-Anna Nicole Smith: You Don't Know Me,2023-05-21,0
-Anna Nicole Smith: You Don't Know Me,2023-05-28,0
+Anna Nicole Smith: You Don't Know Me,2023-04-30,
+Anna Nicole Smith: You Don't Know Me,2023-05-07,
+Anna Nicole Smith: You Don't Know Me,2023-05-14,
+Anna Nicole Smith: You Don't Know Me,2023-05-21,
+Anna Nicole Smith: You Don't Know Me,2023-05-28,
 Annabelle: Creation,2022-01-02,6340
 Annabelle: Creation,2022-01-09,6911
 Annabelle: Creation,2022-01-16,6053
@@ -1154,10 +1154,10 @@ Beetlejuice Beetlejuice,2025-04-27,22684
 Beetlejuice Beetlejuice,2025-05-04,21036
 Beetlejuice Beetlejuice,2025-05-11,42666
 Beetlejuice Beetlejuice,2025-05-18,55571
-Being Eddie,2025-10-26,0
-Being Eddie,2025-11-02,0
-Being Eddie,2025-11-09,0
-Being Eddie,2025-11-16,0
+Being Eddie,2025-10-26,
+Being Eddie,2025-11-02,
+Being Eddie,2025-11-09,
+Being Eddie,2025-11-16,
 Ben Is Back,2022-05-08,2898
 Ben Is Back,2022-05-15,2426
 Ben Is Back,2022-05-22,19650
@@ -1167,12 +1167,12 @@ Best of the Best,2026-09-06,0
 Best of the Best,2026-09-13,0
 Best of the Best,2026-09-20,59350
 Best of the Best,2026-09-27,170125
-Best. Christmas. Ever!,2023-10-29,0
-Best. Christmas. Ever!,2023-11-05,0
-Best. Christmas. Ever!,2023-11-12,0
-Best. Christmas. Ever!,2023-11-19,0
-Best. Christmas. Ever!,2023-11-26,0
-Best. Christmas. Ever!,2023-12-03,0
+Best. Christmas. Ever!,2023-10-29,
+Best. Christmas. Ever!,2023-11-05,
+Best. Christmas. Ever!,2023-11-12,
+Best. Christmas. Ever!,2023-11-19,
+Best. Christmas. Ever!,2023-11-26,
+Best. Christmas. Ever!,2023-12-03,
 Bird Box Barcelona,2023-06-25,8417
 Bird Box Barcelona,2023-07-02,22351
 Bird Box Barcelona,2023-07-09,13346
@@ -1388,15 +1388,15 @@ Blue Beetle,2025-11-02,6826
 Blue Beetle,2025-11-09,9047
 Blue Beetle,2025-11-16,8488
 Blue Beetle,2025-11-23,19722
-"Bob Ross: Happy Accidents, Betrayal & Greed",2021-08-08,0
-"Bob Ross: Happy Accidents, Betrayal & Greed",2021-08-15,0
-"Bob Ross: Happy Accidents, Betrayal & Greed",2021-08-22,0
-"Bob Ross: Happy Accidents, Betrayal & Greed",2021-08-29,0
-"Bob Ross: Happy Accidents, Betrayal & Greed",2021-09-05,0
-Borrego,2022-05-01,0
-Borrego,2022-05-08,0
-Borrego,2022-05-15,0
-Borrego,2022-05-22,0
+"Bob Ross: Happy Accidents, Betrayal & Greed",2021-08-08,
+"Bob Ross: Happy Accidents, Betrayal & Greed",2021-08-15,
+"Bob Ross: Happy Accidents, Betrayal & Greed",2021-08-22,
+"Bob Ross: Happy Accidents, Betrayal & Greed",2021-08-29,
+"Bob Ross: Happy Accidents, Betrayal & Greed",2021-09-05,
+Borrego,2022-05-01,
+Borrego,2022-05-08,
+Borrego,2022-05-15,
+Borrego,2022-05-22,
 Brahms: The Boy II,2022-05-22,3934
 Brahms: The Boy II,2022-05-29,3717
 Brahms: The Boy II,2022-06-05,4315
@@ -1439,11 +1439,11 @@ Burnt,2022-11-27,7817
 Burnt,2022-12-04,9085
 Burnt,2022-12-11,25791
 Burnt,2022-12-18,51696
-CHIPS,2022-06-26,0
-CHIPS,2022-07-03,0
-CHIPS,2022-07-10,0
-CHIPS,2022-07-17,0
-CHIPS,2022-07-24,0
+CHIPS,2022-06-26,
+CHIPS,2022-07-03,
+CHIPS,2022-07-10,
+CHIPS,2022-07-17,
+CHIPS,2022-07-24,
 Can You Keep a Secret?,2022-01-16,3222
 Can You Keep a Secret?,2022-01-23,3115
 Can You Keep a Secret?,2022-01-30,5560
@@ -1456,10 +1456,10 @@ Capturing the Killer Nurse,2022-10-30,0
 Capturing the Killer Nurse,2022-11-06,53
 Capturing the Killer Nurse,2022-11-13,16131
 Capturing the Killer Nurse,2022-11-20,19329
-Caramelo,2025-09-21,0
-Caramelo,2025-09-28,0
-Caramelo,2025-10-05,0
-Caramelo,2025-10-12,0
+Caramelo,2025-09-21,
+Caramelo,2025-09-28,
+Caramelo,2025-10-05,
+Caramelo,2025-10-12,
 Carry-On,2024-11-24,22818
 Carry-On,2024-12-01,42613
 Carry-On,2024-12-08,71991
@@ -2014,14 +2014,14 @@ Colombiana,2023-09-17,6192
 Colombiana,2023-09-24,5461
 Colombiana,2023-10-01,6112
 Colombiana,2023-10-08,11749
-Colors of Evil: Red,2024-05-12,0
-Colors of Evil: Red,2024-05-19,0
-Colors of Evil: Red,2024-05-26,0
-Colors of Evil: Red,2024-06-02,0
-Con Mum,2025-03-09,0
-Con Mum,2025-03-16,0
-Con Mum,2025-03-23,0
-Con Mum,2025-03-30,0
+Colors of Evil: Red,2024-05-12,
+Colors of Evil: Red,2024-05-19,
+Colors of Evil: Red,2024-05-26,
+Colors of Evil: Red,2024-06-02,
+Con Mum,2025-03-09,
+Con Mum,2025-03-16,
+Con Mum,2025-03-23,
+Con Mum,2025-03-30,
 Contraband,2026-08-23,1602
 Contraband,2026-08-30,1570
 Contraband,2026-09-06,2560
@@ -2266,11 +2266,11 @@ Edge of Tomorrow,2024-09-01,19109
 Edge of Tomorrow,2024-09-08,29407
 Edge of Tomorrow,2024-09-15,64714
 Edge of Tomorrow,2024-09-22,38527
-Einstein and the Bomb,2024-01-28,0
-Einstein and the Bomb,2024-02-04,0
-Einstein and the Bomb,2024-02-11,0
-Einstein and the Bomb,2024-02-18,0
-Einstein and the Bomb,2024-02-25,0
+Einstein and the Bomb,2024-01-28,
+Einstein and the Bomb,2024-02-04,
+Einstein and the Bomb,2024-02-11,
+Einstein and the Bomb,2024-02-18,
+Einstein and the Bomb,2024-02-25,
 Eleanor the Great,2026-01-11,7499
 Eleanor the Great,2026-01-18,7904
 Eleanor the Great,2026-01-25,17309
@@ -2289,11 +2289,11 @@ Emily the Criminal,2022-11-27,13198
 Emily the Criminal,2022-12-04,15626
 Emily the Criminal,2022-12-11,109618
 Emily the Criminal,2022-12-18,98949
-End of the Road,2022-08-21,0
-End of the Road,2022-08-28,0
-End of the Road,2022-09-04,0
-End of the Road,2022-09-11,0
-End of the Road,2022-09-18,0
+End of the Road,2022-08-21,
+End of the Road,2022-08-28,
+End of the Road,2022-09-04,
+End of the Road,2022-09-11,
+End of the Road,2022-09-18,
 Endless Love,2022-07-31,7845
 Endless Love,2022-08-07,8083
 Endless Love,2022-08-14,8748
@@ -2365,10 +2365,10 @@ Extraction 2,2023-06-18,745207
 Extraction 2,2023-06-25,794160
 Extraction 2,2023-07-02,390960
 Extraction 2,2023-07-09,215290
-F*ck Love Too,2022-05-08,0
-F*ck Love Too,2022-05-15,0
-F*ck Love Too,2022-05-22,0
-F*ck Love Too,2022-05-29,0
+F*ck Love Too,2022-05-08,
+F*ck Love Too,2022-05-15,
+F*ck Love Too,2022-05-22,
+F*ck Love Too,2022-05-29,
 Fair Play,2023-09-17,12333
 Fair Play,2023-09-24,12770
 Fair Play,2023-10-01,36938
@@ -2990,12 +2990,12 @@ Ghost Rider: Spirit of Vengeance,2025-09-14,3998
 Ghost Rider: Spirit of Vengeance,2025-09-21,3920
 Ghost Rider: Spirit of Vengeance,2025-09-28,4072
 Ghost Rider: Spirit of Vengeance,2025-10-05,9862
-Girl in the Picture,2022-06-19,0
-Girl in the Picture,2022-06-26,0
-Girl in the Picture,2022-07-03,0
-Girl in the Picture,2022-07-10,0
-Girl in the Picture,2022-07-17,0
-Girl in the Picture,2022-07-24,0
+Girl in the Picture,2022-06-19,
+Girl in the Picture,2022-06-26,
+Girl in the Picture,2022-07-03,
+Girl in the Picture,2022-07-10,
+Girl in the Picture,2022-07-17,
+Girl in the Picture,2022-07-24,
 Gladiator,2021-09-19,10792
 Gladiator,2021-09-26,2042
 Gladiator,2021-10-03,2832
@@ -3487,19 +3487,19 @@ Heart of Stone,2023-08-06,42821
 Heart of Stone,2023-08-13,573911
 Heart of Stone,2023-08-20,559113
 Heart of Stone,2023-08-27,299650
-Heart of the Hunter,2024-03-10,0
-Heart of the Hunter,2024-03-17,0
-Heart of the Hunter,2024-03-24,0
-Heart of the Hunter,2024-03-31,0
+Heart of the Hunter,2024-03-10,
+Heart of the Hunter,2024-03-17,
+Heart of the Hunter,2024-03-24,
+Heart of the Hunter,2024-03-31,
 Heat,2023-04-16,216
 Heat,2023-04-23,239
 Heat,2023-04-30,273
 Heat,2023-05-07,248
 Heat,2023-05-14,202
-Hell Camp: Teen Nightmare,2023-12-10,0
-Hell Camp: Teen Nightmare,2023-12-17,0
-Hell Camp: Teen Nightmare,2023-12-24,0
-Hell Camp: Teen Nightmare,2023-12-31,0
+Hell Camp: Teen Nightmare,2023-12-10,
+Hell Camp: Teen Nightmare,2023-12-17,
+Hell Camp: Teen Nightmare,2023-12-24,
+Hell Camp: Teen Nightmare,2023-12-31,
 Here,2025-01-12,64170
 Here,2025-01-19,47742
 Here,2025-01-26,35888
@@ -3532,11 +3532,11 @@ Hit Man,2024-06-09,564933
 Hit Man,2024-06-16,623622
 Hit Man,2024-06-23,302539
 Hit Man,2024-06-30,170155
-Holiday in the Vineyards,2023-11-26,0
-Holiday in the Vineyards,2023-12-03,0
-Holiday in the Vineyards,2023-12-10,0
-Holiday in the Vineyards,2023-12-17,0
-Holiday in the Vineyards,2023-12-24,0
+Holiday in the Vineyards,2023-11-26,
+Holiday in the Vineyards,2023-12-03,
+Holiday in the Vineyards,2023-12-10,
+Holiday in the Vineyards,2023-12-17,
+Holiday in the Vineyards,2023-12-24,
 Home,2021-06-13,393
 Home,2021-06-20,313
 Home,2021-06-27,270
@@ -3817,10 +3817,10 @@ Honest Thief,2025-11-23,1821
 Honest Thief,2025-11-30,1708
 Honest Thief,2025-12-07,2670
 Honest Thief,2025-12-14,11350
-Honeymoon with My Mother,2022-04-17,0
-Honeymoon with My Mother,2022-04-24,0
-Honeymoon with My Mother,2022-05-01,0
-Honeymoon with My Mother,2022-05-08,0
+Honeymoon with My Mother,2022-04-17,
+Honeymoon with My Mother,2022-04-24,
+Honeymoon with My Mother,2022-05-01,
+Honeymoon with My Mother,2022-05-08,
 Hop,2022-03-27,4152
 Hop,2022-04-03,6285
 Hop,2022-04-10,8371
@@ -4043,10 +4043,10 @@ How It Ends,2022-04-10,31644
 How It Ends,2022-04-17,61810
 How It Ends,2022-04-24,75681
 How It Ends,2022-05-01,76506
-How to Rob a Bank,2024-05-26,0
-How to Rob a Bank,2024-06-02,0
-How to Rob a Bank,2024-06-09,0
-How to Rob a Bank,2024-06-16,0
+How to Rob a Bank,2024-05-26,
+How to Rob a Bank,2024-06-02,
+How to Rob a Bank,2024-06-09,
+How to Rob a Bank,2024-06-16,
 How to Train Your Dragon,2026-01-25,29797
 How to Train Your Dragon,2026-02-01,32578
 How to Train Your Dragon,2026-02-08,32017
@@ -4317,10 +4317,10 @@ Hubie Halloween,2026-10-11,10424
 Hubie Halloween,2026-10-18,13004
 Hubie Halloween,2026-10-25,13451
 Hubie Halloween,2026-11-01,24674
-Hunger,2023-03-26,0
-Hunger,2023-04-02,0
-Hunger,2023-04-09,0
-Hunger,2023-04-16,0
+Hunger,2023-03-26,
+Hunger,2023-04-02,
+Hunger,2023-04-09,
+Hunger,2023-04-16,
 Hunter Killer,2023-11-12,6633
 Hunter Killer,2023-11-19,7616
 Hunter Killer,2023-11-26,7702
@@ -4405,10 +4405,10 @@ Inheritance,2022-09-18,9600
 Inheritance,2022-09-25,7026
 Inheritance,2022-10-02,102155
 Inheritance,2022-10-09,156947
-Inside Man,2023-03-26,0
-Inside Man,2023-04-02,0
-Inside Man,2023-04-09,0
-Inside Man,2023-04-16,0
+Inside Man,2023-03-26,
+Inside Man,2023-04-02,
+Inside Man,2023-04-09,
+Inside Man,2023-04-16,
 Insidious: The Red Door,2023-10-22,32478
 Insidious: The Red Door,2023-10-29,31212
 Insidious: The Red Door,2023-11-05,54677
@@ -5116,10 +5116,10 @@ Land of Bad,2024-07-14,25522
 Land of Bad,2024-07-21,128977
 Land of Bad,2024-07-28,133225
 Land of Bad,2024-08-04,66735
-Last Bullet,2025-04-20,0
-Last Bullet,2025-04-27,0
-Last Bullet,2025-05-04,0
-Last Bullet,2025-05-11,0
+Last Bullet,2025-04-20,
+Last Bullet,2025-04-27,
+Last Bullet,2025-05-04,
+Last Bullet,2025-05-11,
 Last Seen Alive,2022-09-11,13005
 Last Seen Alive,2022-09-18,15468
 Last Seen Alive,2022-09-25,10385
@@ -5542,16 +5542,16 @@ Lou,2022-09-11,0
 Lou,2022-09-18,5159
 Lou,2022-09-25,153367
 Lou,2022-10-02,260379
-Love & Gelato,2022-06-05,0
-Love & Gelato,2022-06-12,0
-Love & Gelato,2022-06-19,0
-Love & Gelato,2022-06-26,0
-Love & Gelato,2022-07-03,0
-Love Again,2023-08-13,0
-Love Again,2023-08-20,0
-Love Again,2023-08-27,0
-Love Again,2023-09-03,0
-Love Again,2023-09-10,0
+Love & Gelato,2022-06-05,
+Love & Gelato,2022-06-12,
+Love & Gelato,2022-06-19,
+Love & Gelato,2022-06-26,
+Love & Gelato,2022-07-03,
+Love Again,2023-08-13,
+Love Again,2023-08-20,
+Love Again,2023-08-27,
+Love Again,2023-09-03,
+Love Again,2023-09-10,
 Love Hard,2021-10-17,53
 Love Hard,2021-10-24,37
 Love Hard,2021-10-31,43
@@ -5569,11 +5569,11 @@ Love at First Sight,2023-09-10,5790
 Love at First Sight,2023-09-17,105247
 Love at First Sight,2023-09-24,130897
 Love at First Sight,2023-10-01,65308
-Love in the Villa,2022-08-14,0
-Love in the Villa,2022-08-21,0
-Love in the Villa,2022-08-28,0
-Love in the Villa,2022-09-04,0
-Love in the Villa,2022-09-11,0
+Love in the Villa,2022-08-14,
+Love in the Villa,2022-08-21,
+Love in the Villa,2022-08-28,
+Love in the Villa,2022-09-04,
+Love in the Villa,2022-09-11,
 Love the Coopers,2026-10-18,1040
 Love the Coopers,2026-10-25,1465
 Love the Coopers,2026-11-01,2013
@@ -5719,10 +5719,10 @@ Major Payne,2021-08-01,3539
 Major Payne,2021-08-08,23395
 Major Payne,2021-08-15,44485
 Major Payne,2021-08-22,26418
-Make Me Believe,2023-06-11,0
-Make Me Believe,2023-06-18,0
-Make Me Believe,2023-06-25,0
-Make Me Believe,2023-07-02,0
+Make Me Believe,2023-06-11,
+Make Me Believe,2023-06-18,
+Make Me Believe,2023-06-25,
+Make Me Believe,2023-07-02,
 Man on Fire,2025-12-14,86
 Man on Fire,2025-12-21,124
 Man on Fire,2025-12-28,185
@@ -6585,11 +6585,11 @@ My Father's Violin,2022-01-09,0
 My Father's Violin,2022-01-16,0
 My Father's Violin,2022-01-23,4705
 My Father's Violin,2022-01-30,21695
-"My Father, the BTK Killer",2025-09-21,0
-"My Father, the BTK Killer",2025-09-28,0
-"My Father, the BTK Killer",2025-10-05,0
-"My Father, the BTK Killer",2025-10-12,0
-"My Father, the BTK Killer",2025-10-19,0
+"My Father, the BTK Killer",2025-09-21,
+"My Father, the BTK Killer",2025-09-28,
+"My Father, the BTK Killer",2025-10-05,
+"My Father, the BTK Killer",2025-10-12,
+"My Father, the BTK Killer",2025-10-19,
 My Little Pony: A New Generation,2021-09-05,16055
 My Little Pony: A New Generation,2021-09-12,16409
 My Little Pony: A New Generation,2021-09-19,22366
@@ -6823,19 +6823,19 @@ Pain Hustlers,2023-10-15,32434
 Pain Hustlers,2023-10-22,25625
 Pain Hustlers,2023-10-29,253262
 Pain Hustlers,2023-11-05,275318
-"Pamela, a love story",2023-01-15,0
-"Pamela, a love story",2023-01-22,0
-"Pamela, a love story",2023-01-29,0
-"Pamela, a love story",2023-02-05,0
-"Pamela, a love story",2023-02-12,0
+"Pamela, a love story",2023-01-15,
+"Pamela, a love story",2023-01-22,
+"Pamela, a love story",2023-01-29,
+"Pamela, a love story",2023-02-05,
+"Pamela, a love story",2023-02-12,
 Pan,2022-07-03,3917
 Pan,2022-07-10,3991
 Pan,2022-07-17,8752
 Pan,2022-07-24,23954
-Paradise,2023-07-16,0
-Paradise,2023-07-23,0
-Paradise,2023-07-30,0
-Paradise,2023-08-06,0
+Paradise,2023-07-16,
+Paradise,2023-07-23,
+Paradise,2023-07-30,
+Paradise,2023-08-06,
 Passengers,2026-05-17,16720
 Passengers,2026-05-24,17246
 Passengers,2026-05-31,16526
@@ -7308,10 +7308,10 @@ Replicas,2021-10-17,2691
 Replicas,2021-10-24,2253
 Replicas,2021-10-31,2831
 Replicas,2021-11-07,42874
-Reprisal,2021-10-03,0
-Reprisal,2021-10-10,0
-Reprisal,2021-10-17,0
-Reprisal,2021-10-24,0
+Reprisal,2021-10-03,
+Reprisal,2021-10-10,
+Reprisal,2021-10-17,
+Reprisal,2021-10-24,
 Reptile,2023-09-10,12761
 Reptile,2023-09-17,12801
 Reptile,2023-09-24,19493
@@ -7496,10 +7496,10 @@ Runaway Jury,2025-02-16,4480
 Runaway Jury,2025-02-23,7363
 Runaway Jury,2025-03-02,100236
 Runaway Jury,2025-03-09,135251
-Running with the Devil: The Wild World of John McAfee,2022-08-07,0
-Running with the Devil: The Wild World of John McAfee,2022-08-14,0
-Running with the Devil: The Wild World of John McAfee,2022-08-21,0
-Running with the Devil: The Wild World of John McAfee,2022-08-28,0
+Running with the Devil: The Wild World of John McAfee,2022-08-07,
+Running with the Devil: The Wild World of John McAfee,2022-08-14,
+Running with the Devil: The Wild World of John McAfee,2022-08-21,
+Running with the Devil: The Wild World of John McAfee,2022-08-28,
 Rurouni Kenshin: The Beginning,2021-07-18,19332
 Rurouni Kenshin: The Beginning,2021-07-25,18393
 Rurouni Kenshin: The Beginning,2021-08-01,109555
@@ -7631,11 +7631,11 @@ Rust Creek,2024-04-07,777
 Rust Creek,2024-04-14,591
 Rust Creek,2024-04-21,10732
 Rust Creek,2024-04-28,50036
-Ruth & Boaz,2025-09-07,0
-Ruth & Boaz,2025-09-14,0
-Ruth & Boaz,2025-09-21,0
-Ruth & Boaz,2025-09-28,0
-Ruth & Boaz,2025-10-05,0
+Ruth & Boaz,2025-09-07,
+Ruth & Boaz,2025-09-14,
+Ruth & Boaz,2025-09-21,
+Ruth & Boaz,2025-09-28,
+Ruth & Boaz,2025-10-05,
 STRAW,2025-05-18,129
 STRAW,2025-05-25,2932
 STRAW,2025-06-01,8537
@@ -7702,10 +7702,10 @@ Secret Mall Apartment,2026-01-11,1428
 Secret Mall Apartment,2026-01-18,1328
 Secret Mall Apartment,2026-01-25,29593
 Secret Mall Apartment,2026-02-01,74426
-Seized,2021-10-24,0
-Seized,2021-10-31,0
-Seized,2021-11-07,0
-Seized,2021-11-14,0
+Seized,2021-10-24,
+Seized,2021-10-31,
+Seized,2021-11-07,
+Seized,2021-11-14,
 Senior Year,2022-04-24,10095
 Senior Year,2022-05-01,10774
 Senior Year,2022-05-08,12135
@@ -7718,10 +7718,10 @@ Seraphim Falls,2024-01-28,3223
 Seraphim Falls,2024-02-04,1907
 Seraphim Falls,2024-02-11,30898
 Seraphim Falls,2024-02-18,47424
-Shark Whisperer,2025-06-15,0
-Shark Whisperer,2025-06-22,0
-Shark Whisperer,2025-06-29,0
-Shark Whisperer,2025-07-06,0
+Shark Whisperer,2025-06-15,
+Shark Whisperer,2025-06-22,
+Shark Whisperer,2025-06-29,
+Shark Whisperer,2025-07-06,
 Sherlock Holmes: A Game of Shadows,2022-03-13,9456
 Sherlock Holmes: A Game of Shadows,2022-03-20,9539
 Sherlock Holmes: A Game of Shadows,2022-03-27,10516
@@ -8069,11 +8069,11 @@ Sweet Home Alabama,2025-09-14,8046
 Sweet Home Alabama,2025-09-21,10571
 Sweet Home Alabama,2025-09-28,15510
 Sweet Home Alabama,2025-10-05,38054
-Take Care of Maya,2023-06-04,0
-Take Care of Maya,2023-06-11,0
-Take Care of Maya,2023-06-18,0
-Take Care of Maya,2023-06-25,0
-Take Care of Maya,2023-07-02,0
+Take Care of Maya,2023-06-04,
+Take Care of Maya,2023-06-11,
+Take Care of Maya,2023-06-18,
+Take Care of Maya,2023-06-25,
+Take Care of Maya,2023-07-02,
 Talk to Me,2025-03-09,13699
 Talk to Me,2025-03-16,29113
 Talk to Me,2025-03-23,19892
@@ -8416,10 +8416,10 @@ The Best of Enemies,2021-06-20,3173
 The Best of Enemies,2021-06-27,2989
 The Best of Enemies,2021-07-04,12863
 The Best of Enemies,2021-07-11,38482
-The Best of Me,2022-11-27,0
-The Best of Me,2022-12-04,0
-The Best of Me,2022-12-11,0
-The Best of Me,2022-12-18,0
+The Best of Me,2022-11-27,
+The Best of Me,2022-12-04,
+The Best of Me,2022-12-11,
+The Best of Me,2022-12-18,
 The Black Book,2023-09-10,0
 The Black Book,2023-09-17,0
 The Black Book,2023-09-24,23
@@ -9019,11 +9019,11 @@ The Fate of the Furious,2026-10-04,8988
 The Fate of the Furious,2026-10-11,8705
 The Fate of the Furious,2026-10-18,10237
 The Fate of the Furious,2026-10-25,11478
-The Father Who Moves Mountains,2021-08-29,0
-The Father Who Moves Mountains,2021-09-05,0
-The Father Who Moves Mountains,2021-09-12,0
-The Father Who Moves Mountains,2021-09-19,0
-The Father Who Moves Mountains,2021-09-26,0
+The Father Who Moves Mountains,2021-08-29,
+The Father Who Moves Mountains,2021-09-05,
+The Father Who Moves Mountains,2021-09-12,
+The Father Who Moves Mountains,2021-09-19,
+The Father Who Moves Mountains,2021-09-26,
 The Fifth Element,2026-03-22,14682
 The Fifth Element,2026-03-29,16027
 The Fifth Element,2026-04-05,29462
@@ -9704,10 +9704,10 @@ The Killer,2023-11-05,175747
 The Killer,2023-11-12,738405
 The Killer,2023-11-19,726620
 The Killer,2023-11-26,339753
-The Kingdom,2023-05-21,0
-The Kingdom,2023-05-28,0
-The Kingdom,2023-06-04,0
-The Kingdom,2023-06-11,0
+The Kingdom,2023-05-21,
+The Kingdom,2023-05-28,
+The Kingdom,2023-06-04,
+The Kingdom,2023-06-11,
 The Kissing Booth 3,2021-07-25,14430
 The Kissing Booth 3,2021-08-01,15493
 The Kissing Booth 3,2021-08-08,26714
@@ -10198,10 +10198,10 @@ The Perfect Neighbor,2025-10-12,21442
 The Perfect Neighbor,2025-10-19,345371
 The Perfect Neighbor,2025-10-26,628591
 The Perfect Neighbor,2025-11-02,170620
-The Pez Outlaw,2023-01-08,0
-The Pez Outlaw,2023-01-15,0
-The Pez Outlaw,2023-01-22,0
-The Pez Outlaw,2023-01-29,0
+The Pez Outlaw,2023-01-08,
+The Pez Outlaw,2023-01-15,
+The Pez Outlaw,2023-01-22,
+The Pez Outlaw,2023-01-29,
 The Platform 2,2024-09-15,5491
 The Platform 2,2024-09-22,10212
 The Platform 2,2024-09-29,21050
@@ -10230,11 +10230,11 @@ The Proposal,2026-04-19,8345
 The Proposal,2026-04-26,8389
 The Proposal,2026-05-03,9033
 The Proposal,2026-05-10,15267
-The Redeem Team,2022-09-18,0
-The Redeem Team,2022-09-25,0
-The Redeem Team,2022-10-02,0
-The Redeem Team,2022-10-09,0
-The Redeem Team,2022-10-16,0
+The Redeem Team,2022-09-18,
+The Redeem Team,2022-09-25,
+The Redeem Team,2022-10-02,
+The Redeem Team,2022-10-09,
+The Redeem Team,2022-10-16,
 The Requin,2026-03-29,591
 The Requin,2026-04-05,939
 The Requin,2026-04-12,1005
@@ -10368,10 +10368,10 @@ The Town,2021-12-26,12790
 The Town,2022-01-02,19924
 The Town,2022-01-09,45463
 The Town,2022-01-16,41084
-The Trip,2021-10-03,0
-The Trip,2021-10-10,0
-The Trip,2021-10-17,0
-The Trip,2021-10-24,0
+The Trip,2021-10-03,
+The Trip,2021-10-10,
+The Trip,2021-10-17,
+The Trip,2021-10-24,
 The Truth About Jussie Smollett?,2025-08-10,0
 The Truth About Jussie Smollett?,2025-08-17,0
 The Truth About Jussie Smollett?,2025-08-24,5880
@@ -10620,11 +10620,11 @@ The Vow,2024-01-21,22803
 The Vow,2024-01-28,10980
 The Vow,2024-02-04,45622
 The Vow,2024-02-11,49326
-The Wages of Fear,2024-03-10,0
-The Wages of Fear,2024-03-17,0
-The Wages of Fear,2024-03-24,0
-The Wages of Fear,2024-03-31,0
-The Wages of Fear,2024-04-07,0
+The Wages of Fear,2024-03-10,
+The Wages of Fear,2024-03-17,
+The Wages of Fear,2024-03-24,
+The Wages of Fear,2024-03-31,
+The Wages of Fear,2024-04-07,
 The Watchers,2024-12-15,16142
 The Watchers,2024-12-22,23097
 The Watchers,2024-12-29,27130
@@ -10670,12 +10670,12 @@ The Woman King,2023-02-05,53050
 The Woman King,2023-02-12,52048
 The Woman King,2023-02-19,119258
 The Woman King,2023-02-26,135807
-The Woman in Cabin 10,2025-09-21,0
-The Woman in Cabin 10,2025-09-28,0
-The Woman in Cabin 10,2025-10-05,0
-The Woman in Cabin 10,2025-10-12,0
-The Woman in Cabin 10,2025-10-19,0
-The Woman in Cabin 10,2025-10-26,0
+The Woman in Cabin 10,2025-09-21,
+The Woman in Cabin 10,2025-09-28,
+The Woman in Cabin 10,2025-10-05,
+The Woman in Cabin 10,2025-10-12,
+The Woman in Cabin 10,2025-10-19,
+The Woman in Cabin 10,2025-10-26,
 The Wonder,2022-10-30,21640
 The Wonder,2022-11-06,31984
 The Wonder,2022-11-13,26634
@@ -11000,10 +11000,10 @@ To Leslie,2023-05-21,2889
 To Leslie,2023-05-28,2812
 To Leslie,2023-06-04,48964
 To Leslie,2023-06-11,38012
-Too Old for Fairy Tales,2022-07-10,0
-Too Old for Fairy Tales,2022-07-17,0
-Too Old for Fairy Tales,2022-07-24,0
-Too Old for Fairy Tales,2022-07-31,0
+Too Old for Fairy Tales,2022-07-10,
+Too Old for Fairy Tales,2022-07-17,
+Too Old for Fairy Tales,2022-07-24,
+Too Old for Fairy Tales,2022-07-31,
 Top Gun,2022-05-08,195
 Top Gun,2022-05-15,235
 Top Gun,2022-05-22,296
@@ -11058,10 +11058,10 @@ Trollhunters: Rise of the Titans,2021-07-04,5775
 Trollhunters: Rise of the Titans,2021-07-11,7299
 Trollhunters: Rise of the Titans,2021-07-18,8127
 Trollhunters: Rise of the Titans,2021-07-25,64296
-Trouble,2024-09-22,0
-Trouble,2024-09-29,0
-Trouble,2024-10-06,0
-Trouble,2024-10-13,0
+Trouble,2024-09-22,
+Trouble,2024-09-29,
+Trouble,2024-10-06,
+Trouble,2024-10-13,
 True Spirit,2023-01-22,0
 True Spirit,2023-01-29,0
 True Spirit,2023-02-05,39088
@@ -11422,10 +11422,10 @@ Unknown: Cave of Bones,2023-07-02,0
 Unknown: Cave of Bones,2023-07-09,0
 Unknown: Cave of Bones,2023-07-16,0
 Unknown: Cave of Bones,2023-07-23,10480
-Unknown: Cosmic Time Machine,2023-07-09,0
-Unknown: Cosmic Time Machine,2023-07-16,0
-Unknown: Cosmic Time Machine,2023-07-23,0
-Unknown: Cosmic Time Machine,2023-07-30,0
+Unknown: Cosmic Time Machine,2023-07-09,
+Unknown: Cosmic Time Machine,2023-07-16,
+Unknown: Cosmic Time Machine,2023-07-23,
+Unknown: Cosmic Time Machine,2023-07-30,
 Unthinkable,2024-02-25,26100
 Unthinkable,2024-03-03,35741
 Unthinkable,2024-03-10,45742
@@ -11435,20 +11435,20 @@ Until Dawn,2025-07-13,34770
 Until Dawn,2025-07-20,38316
 Until Dawn,2025-07-27,134408
 Until Dawn,2025-08-03,127398
-Untold: Malice at the Palace,2021-07-25,0
-Untold: Malice at the Palace,2021-08-01,0
-Untold: Malice at the Palace,2021-08-08,0
-Untold: Malice at the Palace,2021-08-15,0
-Untold: Malice at the Palace,2021-08-22,0
+Untold: Malice at the Palace,2021-07-25,
+Untold: Malice at the Palace,2021-08-01,
+Untold: Malice at the Palace,2021-08-08,
+Untold: Malice at the Palace,2021-08-15,
+Untold: Malice at the Palace,2021-08-22,
 Untold: The Girlfriend Who Didn't Exist,2022-07-31,0
 Untold: The Girlfriend Who Didn't Exist,2022-08-07,1077
 Untold: The Girlfriend Who Didn't Exist,2022-08-14,2943
 Untold: The Girlfriend Who Didn't Exist,2022-08-21,203192
 Untold: The Girlfriend Who Didn't Exist,2022-08-28,109671
-Untold: The Liver King,2025-04-27,0
-Untold: The Liver King,2025-05-04,0
-Untold: The Liver King,2025-05-11,0
-Untold: The Liver King,2025-05-18,0
+Untold: The Liver King,2025-04-27,
+Untold: The Liver King,2025-05-04,
+Untold: The Liver King,2025-05-11,
+Untold: The Liver King,2025-05-18,
 Untold: The Rise and Fall of AND1,2022-08-07,0
 Untold: The Rise and Fall of AND1,2022-08-14,98
 Untold: The Rise and Fall of AND1,2022-08-21,2286
@@ -11669,10 +11669,10 @@ Wanted Man,2025-10-26,280
 Wanted Man,2025-11-02,354
 Wanted Man,2025-11-09,448
 Wanted Man,2025-11-16,3245
-War of the Worlds,2022-04-17,0
-War of the Worlds,2022-04-24,0
-War of the Worlds,2022-05-01,0
-War of the Worlds,2022-05-08,0
+War of the Worlds,2022-04-17,
+War of the Worlds,2022-04-24,
+War of the Worlds,2022-05-01,
+War of the Worlds,2022-05-08,
 Warcraft,2024-06-16,9495
 Warcraft,2024-06-23,9255
 Warcraft,2024-06-30,7386
@@ -11685,10 +11685,10 @@ Watcher,2025-02-09,5791
 Watcher,2025-02-16,7362
 Watcher,2025-02-23,8066
 Watcher,2025-03-02,58703
-We Die Young,2022-05-15,0
-We Die Young,2022-05-22,0
-We Die Young,2022-05-29,0
-We Die Young,2022-06-05,0
+We Die Young,2022-05-15,
+We Die Young,2022-05-22,
+We Die Young,2022-05-29,
+We Die Young,2022-06-05,
 We Have a Ghost,2023-02-05,9604
 We Have a Ghost,2023-02-12,6802
 We Have a Ghost,2023-02-19,9208
@@ -12465,11 +12465,11 @@ Zookeeper,2023-05-28,2407
 Zookeeper,2023-06-04,3403
 Zookeeper,2023-06-11,17969
 Zookeeper,2023-06-18,15162
-iHostage,2025-03-30,0
-iHostage,2025-04-06,0
-iHostage,2025-04-13,0
-iHostage,2025-04-20,0
-iHostage,2025-04-27,0
+iHostage,2025-03-30,
+iHostage,2025-04-06,
+iHostage,2025-04-13,
+iHostage,2025-04-20,
+iHostage,2025-04-27,
 ¡Que viva México!,2023-04-23,309
 ¡Que viva México!,2023-04-30,320
 ¡Que viva México!,2023-05-07,272
