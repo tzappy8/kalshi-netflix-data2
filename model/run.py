@@ -7,10 +7,11 @@ Writes: model_output/report.html, model_output/latest.json, model_output/paper_t
 
 Model
  1. Stage 1 prior: a conditional logit on 5 years of weekly charts gives each movie a score V1.
- 2. Each daily Top 10 rank becomes estimated views (rank curve measured from Netflix's weekly view
-    counts), adjusted for day of week and a launch/decay curve, giving each movie a peak-day level.
- 3. Prior and daily data are combined (more days seen = more weight on data). Weekly views =
-    level x the movie's own days in the window. Monte Carlo over the uncertainty gives P(#1).
+ 2. A ranking model reads the ORDER of every daily Top 10 this week together (Plackett-Luce): movies that
+    swap places are treated as neck and neck; one that stays far ahead every day gets a bigger gap.
+    Each movie gets a level, adjusted for its launch/decay curve and day of week, pulled toward its
+    Stage 1 prior when there's little data.
+ 3. Weekly views = level x the movie's own days in the window. Monte Carlo over the uncertainty gives P(#1).
  4. Flags: model vs. the price you would actually pay, only when the gap clears 10 points, enough
     has traded, and enough daily data exists.
 Paper trading
@@ -35,6 +36,9 @@ EDGE_MIN, VOL_MIN, DATA_MIN = 0.10, 200.0, 0.30
 STAKE = 10.0                                               # dollars per paper trade
 CHECK_TIMES = [(7, 41), (13, 41), (18, 41), (23, 41)]      # same as the scheduled check
 PRIOR_SD, DATA_SD = 0.9, 0.25
+DAY_NOISE = 0.3     # day-to-day wobble in a movie's log-views (assumption): sets how big a gap a steady #1 implies
+BG_LEVEL, BG_COUNT = -2.5, 40   # the rest of Netflix's catalog, below the Top 10
+NECK_AND_NECK_FROM = dt.date(2026, 11, 16)   # ranking model applies from this week on; earlier weeks keep v2
 
 def read_csv(p, **k):
     return pd.read_csv(p, **k) if os.path.exists(p) else None
@@ -143,40 +147,89 @@ def model_at(D, event, asof, n_sim=20000, seed=7):
         rows.append(dict(key=key, title=name, new=new, release=rel, days=days, kind=kind, age0=age0, V1=v1))
     C = pd.DataFrame(rows)
 
-    window = [week_start + dt.timedelta(days=i) for i in range(7)]
-    lev, wf, nob, best, ww = [], [], [], [], []
-    for r in C.itertuples():
-        td = []
-        for d in window:
-            if r.new and d < r.release: continue
-            age = (d - r.release).days if r.new else r.age0 + (d - week_start).days
-            td.append((d, DOW[d.weekday()] * age_curve(age, r.kind)))
-        exp_all = sum(w for _, w in td) or 1e-9
-        obs = [(d, w) for d, w in td if d in days_obs]
-        lv = []
-        for d, w in obs:
-            hit = daily[(daily.view_day == d) & (daily.title.map(norm) == r.key)]
-            v = (RANK_SHARE[int(hit["rank"].iloc[0])] if len(hit) else OFF_LIST) * DOW[d.weekday()]
-            lv.append(v / max(w, 1e-9))
-        ranks = daily[daily.title.map(norm) == r.key]["rank"]
-        best.append(int(ranks.min()) if len(ranks) else None)
-        lev.append(float(np.exp(np.average(np.log(lv), weights=np.arange(1, len(lv) + 1)))) if lv else np.nan)
-        wf.append(sum(w for _, w in obs) / exp_all if lv else 0.0); nob.append(len(obs)); ww.append(exp_all)
-    C["level"], C["w"], C["days_observed"], C["best_daily_rank"], C["window_weight"] = lev, wf, nob, best, ww
+    if week_start < NECK_AND_NECK_FROM:   # v2 method, kept so finished weeks' scorecard doesn't change
+        window = [week_start + dt.timedelta(days=i) for i in range(7)]
+        lev, wf, nob, best, ww = [], [], [], [], []
+        for r in C.itertuples():
+            td = []
+            for d in window:
+                if r.new and d < r.release: continue
+                age = (d - r.release).days if r.new else r.age0 + (d - week_start).days
+                td.append((d, DOW[d.weekday()] * age_curve(age, r.kind)))
+            exp_all = sum(w for _, w in td) or 1e-9
+            obs = [(d, w) for d, w in td if d in days_obs]
+            lv = []
+            for d, w in obs:
+                hit = daily[(daily.view_day == d) & (daily.title.map(norm) == r.key)]
+                v = (RANK_SHARE[int(hit["rank"].iloc[0])] if len(hit) else OFF_LIST) * DOW[d.weekday()]
+                lv.append(v / max(w, 1e-9))
+            ranks = daily[daily.title.map(norm) == r.key]["rank"]
+            best.append(int(ranks.min()) if len(ranks) else None)
+            lev.append(float(np.exp(np.average(np.log(lv), weights=np.arange(1, len(lv) + 1)))) if lv else np.nan)
+            wf.append(sum(w for _, w in obs) / exp_all if lv else 0.0); nob.append(len(obs)); ww.append(exp_all)
+        C["level"], C["w"], C["days_observed"], C["best_daily_rank"], C["window_weight"] = lev, wf, nob, best, ww
 
-    c0 = -C.V1.max()
-    pm_, ps_ = [], []
-    for r in C.itertuples():
-        mu0 = c0 + r.V1
-        if np.isnan(r.level):
-            pm_.append(mu0); ps_.append(PRIOR_SD)
-        else:
-            sd_d = DATA_SD / math.sqrt(r.days_observed) + 0.35 * (1 - r.w)
-            wt = PRIOR_SD ** -2 + sd_d ** -2
-            pm_.append((mu0 / PRIOR_SD ** 2 + math.log(r.level) / sd_d ** 2) / wt); ps_.append(wt ** -0.5)
-    logL = np.array(pm_) + rng.normal(size=(n_sim, len(C))) * np.array(ps_)
-    win = np.bincount((np.exp(logL) * C.window_weight.values).argmax(1), minlength=len(C)) / n_sim
-    C["p_model"] = (1 - FIELD_P) * win
+        c0 = -C.V1.max()
+        pm_, ps_ = [], []
+        for r in C.itertuples():
+            mu0 = c0 + r.V1
+            if np.isnan(r.level):
+                pm_.append(mu0); ps_.append(PRIOR_SD)
+            else:
+                sd_d = DATA_SD / math.sqrt(r.days_observed) + 0.35 * (1 - r.w)
+                wt = PRIOR_SD ** -2 + sd_d ** -2
+                pm_.append((mu0 / PRIOR_SD ** 2 + math.log(r.level) / sd_d ** 2) / wt); ps_.append(wt ** -0.5)
+        logL = np.array(pm_) + rng.normal(size=(n_sim, len(C))) * np.array(ps_)
+        win = np.bincount((np.exp(logL) * C.window_weight.values).argmax(1), minlength=len(C)) / n_sim
+        C["p_model"] = (1 - FIELD_P) * win
+    else:
+        window = [week_start + dt.timedelta(days=i) for i in range(7)]
+        # Each movie's daily log-views = its level b + launch/decay curve + day of week. The level is learned from
+        # the ORDER of every daily list together (a ranking model), not from fixed shares per rank: two movies that
+        # swap places come out neck and neck; one that stays far ahead every day comes out with a bigger gap.
+        n = len(C); offs = {}; wf, nob, best, ww = [], [], [], []
+        for i, r in enumerate(C.itertuples()):
+            tot, seen = 0.0, 0.0
+            for d in window:
+                if r.new and d < r.release: continue
+                age = (d - r.release).days if r.new else r.age0 + (d - week_start).days
+                o = math.log(max(age_curve(age, r.kind), 1e-6)); offs[(i, d)] = o
+                wt = DOW[d.weekday()] * math.exp(o); tot += wt
+                if d in days_obs: seen += wt
+            ranks = daily[daily.title.map(norm) == r.key]["rank"]
+            best.append(int(ranks.min()) if len(ranks) else None)
+            nob.append(sum(1 for d in days_obs if (i, d) in offs)); wf.append(seen / tot if tot else 0.0); ww.append(tot)
+        C["w"], C["days_observed"], C["best_daily_rank"], C["window_weight"] = wf, nob, best, ww
+        key_ix = {k: i for i, k in enumerate(C.key)}
+        days_data = []
+        for d in days_obs:
+            avail = [i for i in range(n) if (i, d) in offs]
+            order = [key_ix[norm(t)] for t in daily[daily.view_day == d].sort_values("rank").title if norm(t) in key_ix]
+            order = [i for i in order if i in avail]
+            if order: days_data.append((d, avail, order))
+        mu0 = -C.V1.max() + C.V1.values
+        def negpost(b):
+            nll = 0.0
+            for d, avail, order in days_data:
+                x = {i: (b[i] + offs[(i, d)]) / DAY_NOISE for i in avail}
+                rest = set(avail)
+                for i in order:
+                    m = max(x[j] for j in rest)
+                    den = sum(math.exp(x[j] - m) for j in rest) + BG_COUNT * math.exp(BG_LEVEL / DAY_NOISE - m)
+                    nll -= x[i] - m - math.log(den); rest.discard(i)
+            return nll + ((b - mu0) ** 2).sum() / (2 * PRIOR_SD ** 2)
+        from scipy.optimize import minimize
+        res = minimize(negpost, mu0.copy(), method="BFGS")
+        bhat = res.x
+        cov = np.array(res.hess_inv) if np.ndim(res.hess_inv) == 2 else np.diag(np.full(n, PRIOR_SD ** 2))
+        cov = (cov + cov.T) / 2; ev, evec = np.linalg.eigh(cov); cov = (evec * np.clip(ev, 1e-4, PRIOR_SD ** 2)) @ evec.T
+        C["level"] = np.exp(bhat)
+        draws = rng.multivariate_normal(bhat, cov, size=n_sim)
+        weekly = np.zeros((n_sim, n))
+        for (i, d), o in offs.items():
+            weekly[:, i] += np.exp(draws[:, i] + o + math.log(DOW[d.weekday()]) + rng.normal(size=n_sim) * DAY_NOISE * (0.5 if d in days_obs else 1.0))
+        win = np.bincount(weekly.argmax(1), minlength=n) / n_sim
+        C["p_model"] = (1 - FIELD_P) * win
     C["p_stage1"] = (1 - FIELD_P) * np.exp(C.V1 - C.V1.max()) / np.exp(C.V1 - C.V1.max()).sum()
 
     pmx = px.assign(key=px.title.map(norm)).set_index("key")
