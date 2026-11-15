@@ -3,7 +3,7 @@
   "event": "KXNETFLIXRANKMOVIE-26NOV16",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "prices_at": "2026-11-14 13:49:37",
+  "prices_at": "2026-11-14 18:53:18",
   "days_obs": "[datetime.date(2026, 11, 9), datetime.date(2026, 11, 10), datetime.date(2026, 11, 11), datetime.date(2026, 11, 12), datetime.date(2026, 11, 13)]"
  },
  "rows": [
@@ -17,11 +17,11 @@
    "w": 0.5882695456,
    "p_stage1": 0.161456017,
    "p_model": 0.667166,
-   "bid": 0.06,
+   "bid": 0.05,
    "ask": 0.08,
-   "bid_size": 25.0,
-   "ask_size": 238.0,
-   "volume": 2792.43,
+   "bid_size": 363.0,
+   "ask_size": 56.32,
+   "volume": 3021.29,
    "flag_side": "Yes"
   },
   {
@@ -35,10 +35,10 @@
    "p_stage1": 0.0606334622,
    "p_model": 0.2965775,
    "bid": 0.91,
-   "ask": 0.92,
-   "bid_size": 472.0,
-   "ask_size": 168.0,
-   "volume": 4106.69,
+   "ask": 0.94,
+   "bid_size": 124.87,
+   "ask_size": 106.33,
+   "volume": 4233.21,
    "flag_side": "No"
   },
   {
@@ -71,8 +71,8 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 12361.0,
-   "volume": 3606.14,
+   "ask_size": 12324.0,
+   "volume": 3643.14,
    "flag_side": ""
   },
   {
@@ -88,8 +88,8 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 2462.16,
-   "volume": 2904.36,
+   "ask_size": 2461.16,
+   "volume": 2905.36,
    "flag_side": ""
   },
   {
@@ -275,8 +275,8 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 4658.01,
-   "volume": 294.99,
+   "ask_size": 4657.01,
+   "volume": 295.99,
    "flag_side": ""
   },
   {
@@ -383,8 +383,8 @@
   }
  ],
  "flags": [
-  "Buy Yes on Tyler Perry's The Gospel of Christmas: model 67% vs 8\u00a2 to buy (59 pts). 3 day(s) of daily data, best daily rank #1. 238 contracts at that price.",
-  "Buy No on Reminders of Him: model 70% vs 9\u00a2 to buy (61 pts). 4 day(s) of daily data, best daily rank #1. 472 contracts at that price."
+  "Buy Yes on Tyler Perry's The Gospel of Christmas: model 67% vs 8\u00a2 to buy (59 pts). 3 day(s) of daily data, best daily rank #1. 56 contracts at that price.",
+  "Buy No on Reminders of Him: model 70% vs 9\u00a2 to buy (61 pts). 4 day(s) of daily data, best daily rank #1. 125 contracts at that price."
  ],
  "paper": {
   "trades": 2,
