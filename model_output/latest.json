@@ -3,7 +3,7 @@
   "event": "KXNETFLIXRANKMOVIE-26NOV16",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "prices_at": "2026-11-15 21:54:37",
+  "prices_at": "2026-11-15 23:25:49",
   "days_obs": "[datetime.date(2026, 11, 9), datetime.date(2026, 11, 10), datetime.date(2026, 11, 11), datetime.date(2026, 11, 12), datetime.date(2026, 11, 13), datetime.date(2026, 11, 14)]"
  },
  "rows": [
@@ -17,11 +17,11 @@
    "w": 0.8143294583,
    "p_stage1": 0.161456017,
    "p_model": 0.910345,
-   "bid": 0.01,
-   "ask": 0.04,
-   "bid_size": 546.8,
-   "ask_size": 5.74,
-   "volume": 6527.79,
+   "bid": 0.02,
+   "ask": 0.08,
+   "bid_size": 4.0,
+   "ask_size": 7.0,
+   "volume": 6920.56,
    "flag_side": "Yes"
   },
   {
@@ -34,11 +34,11 @@
    "w": 0.8529649138,
    "p_stage1": 0.0606334622,
    "p_model": 0.0595095,
-   "bid": 0.96,
-   "ask": 0.98,
-   "bid_size": 2000.0,
-   "ask_size": 21.16,
-   "volume": 7310.3,
+   "bid": 0.91,
+   "ask": 0.93,
+   "bid_size": 64.81,
+   "ask_size": 2370.0,
+   "volume": 7321.3,
    "flag_side": "No"
   },
   {
@@ -360,8 +360,8 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 2443.16,
-   "volume": 2952.36,
+   "ask_size": 2277.16,
+   "volume": 3118.36,
    "flag_side": ""
   },
   {
@@ -383,8 +383,8 @@
   }
  ],
  "flags": [
-  "Buy Yes on Tyler Perry's The Gospel of Christmas: model 91% vs 4\u00a2 to buy (87 pts). 4 day(s) of daily data, best daily rank #1. Thin: only 6 contracts at that price.",
-  "Buy No on Reminders of Him: model 94% vs 4\u00a2 to buy (90 pts). 5 day(s) of daily data, best daily rank #1. 2000 contracts at that price."
+  "Buy Yes on Tyler Perry's The Gospel of Christmas: model 91% vs 8\u00a2 to buy (83 pts). 4 day(s) of daily data, best daily rank #1. Thin: only 7 contracts at that price.",
+  "Buy No on Reminders of Him: model 94% vs 9\u00a2 to buy (85 pts). 5 day(s) of daily data, best daily rank #1. 65 contracts at that price."
  ],
  "paper": {
   "trades": 2,
