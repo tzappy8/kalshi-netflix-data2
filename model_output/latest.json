@@ -3,7 +3,7 @@
   "event": "KXNETFLIXRANKMOVIE-26NOV16",
   "week_start": "2026-11-09",
   "week_end": "2026-11-15",
-  "prices_at": "2026-11-15 23:25:49",
+  "prices_at": "2026-11-16 07:32:25",
   "days_obs": "[datetime.date(2026, 11, 9), datetime.date(2026, 11, 10), datetime.date(2026, 11, 11), datetime.date(2026, 11, 12), datetime.date(2026, 11, 13), datetime.date(2026, 11, 14)]"
  },
  "rows": [
@@ -17,11 +17,11 @@
    "w": 0.8143294583,
    "p_stage1": 0.161456017,
    "p_model": 0.910345,
-   "bid": 0.02,
-   "ask": 0.08,
-   "bid_size": 4.0,
-   "ask_size": 7.0,
-   "volume": 6920.56,
+   "bid": 0.05,
+   "ask": 0.07,
+   "bid_size": 94.0,
+   "ask_size": 205.47,
+   "volume": 11397.83,
    "flag_side": "Yes"
   },
   {
@@ -34,11 +34,11 @@
    "w": 0.8529649138,
    "p_stage1": 0.0606334622,
    "p_model": 0.0595095,
-   "bid": 0.91,
-   "ask": 0.93,
-   "bid_size": 64.81,
-   "ask_size": 2370.0,
-   "volume": 7321.3,
+   "bid": 0.92,
+   "ask": 0.94,
+   "bid_size": 210.9,
+   "ask_size": 0.1,
+   "volume": 10066.36,
    "flag_side": "No"
   },
   {
@@ -54,8 +54,8 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 12065.0,
-   "volume": 3806.14,
+   "ask_size": 11850.26,
+   "volume": 4274.72,
    "flag_side": ""
   },
   {
@@ -71,7 +71,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 3365.45,
+   "ask_size": 3494.29,
    "volume": 496.55,
    "flag_side": ""
   },
@@ -190,7 +190,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 2516.17,
+   "ask_size": 2545.01,
    "volume": 237.03,
    "flag_side": ""
   },
@@ -207,8 +207,8 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 2126.41,
-   "volume": 2180.48,
+   "ask_size": 2068.22,
+   "volume": 2367.51,
    "flag_side": ""
   },
   {
@@ -224,8 +224,8 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 2995.37,
-   "volume": 109.4,
+   "ask_size": 2098.03,
+   "volume": 1044.58,
    "flag_side": ""
   },
   {
@@ -241,7 +241,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 9370.0,
+   "ask_size": 9398.84,
    "volume": 47.0,
    "flag_side": ""
   },
@@ -258,7 +258,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 5803.45,
+   "ask_size": 5832.29,
    "volume": 280.55,
    "flag_side": ""
   },
@@ -275,7 +275,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 9323.49,
+   "ask_size": 9352.33,
    "volume": 93.51,
    "flag_side": ""
   },
@@ -292,7 +292,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 5733.45,
+   "ask_size": 5762.29,
    "volume": 350.55,
    "flag_side": ""
   },
@@ -309,7 +309,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 6017.02,
+   "ask_size": 6045.86,
    "volume": 66.98,
    "flag_side": ""
   },
@@ -326,7 +326,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 6017.0,
+   "ask_size": 6045.84,
    "volume": 67.0,
    "flag_side": ""
   },
@@ -343,8 +343,8 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 4677.01,
-   "volume": 295.99,
+   "ask_size": 4712.34,
+   "volume": 389.5,
    "flag_side": ""
   },
   {
@@ -360,8 +360,8 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 2277.16,
-   "volume": 3118.36,
+   "ask_size": 1751.38,
+   "volume": 3772.98,
    "flag_side": ""
   },
   {
@@ -383,8 +383,8 @@
   }
  ],
  "flags": [
-  "Buy Yes on Tyler Perry's The Gospel of Christmas: model 91% vs 8\u00a2 to buy (83 pts). 4 day(s) of daily data, best daily rank #1. Thin: only 7 contracts at that price.",
-  "Buy No on Reminders of Him: model 94% vs 9\u00a2 to buy (85 pts). 5 day(s) of daily data, best daily rank #1. 65 contracts at that price."
+  "Buy Yes on Tyler Perry's The Gospel of Christmas: model 91% vs 7\u00a2 to buy (84 pts). 4 day(s) of daily data, best daily rank #1. 205 contracts at that price.",
+  "Buy No on Reminders of Him: model 94% vs 8\u00a2 to buy (86 pts). 5 day(s) of daily data, best daily rank #1. 211 contracts at that price."
  ],
  "paper": {
   "trades": 2,
