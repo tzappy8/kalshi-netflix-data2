@@ -10,3 +10,4 @@
 2026-11-15 09:35:24 WIKI 13/20 contenders matched, 13 new rows
 2026-11-16 08:33:22 NEW LIST #1 Heartland
 2026-11-16 10:41:25 WIKI 15/21 contenders matched, 30 new rows
+2026-11-16 11:11:37 kalshi failed: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/events?series_ticker=KXNETFLIXRANKMOVIE&status=open (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
