@@ -18,3 +18,14 @@ Call log:
 2026-11-17 22:32:49 netflix row not found (logged out or page changed?)
 2026-11-17 22:32:55 WEEKLY chart 2026-11-15 #1 Reminders of Him
 2026-11-17 22:46:10 WIKI 10/12 contenders matched, 10 new rows
+2026-11-18 17:35:22 netflix read failed: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.netflix.com/browse/genre/34399
+Call log:
+  - navigating to "https://www.netflix.com/browse/genre/34399", waiting until "domcontentloaded"
+
+2026-11-18 17:35:22 netflix row not found (logged out or page changed?)
+2026-11-18 17:35:23 weekly chart read failed: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.netflix.com/tudum/top10/united-states
+Call log:
+  - navigating to "https://www.netflix.com/tudum/top10/united-states", waiting until "domcontentloaded"
+
+2026-11-18 17:35:23 wikipedia step failed (tries again next loop): HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/events?series_ticker=KXNETFLIXRANKMOVIE&status=open (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-11-18 17:51:32 WIKI 14/16 contenders matched, 66 new rows
