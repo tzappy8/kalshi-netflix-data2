@@ -30,3 +30,5 @@ Call log:
 2026-11-18 17:35:23 wikipedia step failed (tries again next loop): HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/events?series_ticker=KXNETFLIXRANKMOVIE&status=open (Caused by NameResolutionError("HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
 2026-11-18 17:51:32 WIKI 14/16 contenders matched, 66 new rows
 2026-11-18 21:14:10 NEW LIST #1 Obsession
+2026-11-19 09:31:36 NEW LIST #1 Guarding Stars
+2026-11-19 09:32:16 WIKI 14/16 contenders matched, 14 new rows
