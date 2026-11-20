@@ -3,7 +3,7 @@
   "event": "KXNETFLIXRANKMOVIE-26NOV23",
   "week_start": "2026-11-16",
   "week_end": "2026-11-22",
-  "prices_at": "2026-11-19 16:20:13",
+  "prices_at": "2026-11-19 19:09:07",
   "days_obs": "[datetime.date(2026, 11, 18)]"
  },
  "rows": [
@@ -18,10 +18,10 @@
    "p_stage1": 0.0447577495,
    "p_model": 0.4443085,
    "bid": 0.62,
-   "ask": 0.68,
-   "bid_size": 262.9,
-   "ask_size": 202.69,
-   "volume": 1109.24,
+   "ask": 0.67,
+   "bid_size": 115.9,
+   "ask_size": 10.01,
+   "volume": 1237.67,
    "flag_side": ""
   },
   {
@@ -34,11 +34,11 @@
    "w": 0.1601257715,
    "p_stage1": 0.0447577495,
    "p_model": 0.1915265,
-   "bid": 0.24,
-   "ask": 0.27,
-   "bid_size": 3.0,
-   "ask_size": 345.0,
-   "volume": 1666.62,
+   "bid": 0.22,
+   "ask": 0.25,
+   "bid_size": 17.0,
+   "ask_size": 152.49,
+   "volume": 1694.75,
    "flag_side": ""
   },
   {
@@ -51,11 +51,11 @@
    "w": 0.1396157779,
    "p_stage1": 0.1033248022,
    "p_model": 0.1511745,
-   "bid": 0.01,
+   "bid": 0.02,
    "ask": 0.03,
-   "bid_size": 223.0,
-   "ask_size": 350.0,
-   "volume": 3023.54,
+   "bid_size": 85.0,
+   "ask_size": 644.0,
+   "volume": 3138.54,
    "flag_side": ""
   },
   {
@@ -71,7 +71,7 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 3143.0,
+   "ask_size": 3144.0,
    "volume": 3930.7,
    "flag_side": ""
   },
@@ -170,11 +170,11 @@
    "w": 0.1550011508,
    "p_stage1": 0.0447577495,
    "p_model": 0.005335,
-   "bid": 0.02,
-   "ask": 0.06,
-   "bid_size": 621.0,
-   "ask_size": 261.0,
-   "volume": 5415.5,
+   "bid": 0.12,
+   "ask": 0.13,
+   "bid_size": 235.0,
+   "ask_size": 79.0,
+   "volume": 8082.5,
    "flag_side": ""
   },
   {
@@ -241,8 +241,8 @@
    "bid": 0.0,
    "ask": 0.01,
    "bid_size": 0.0,
-   "ask_size": 18788.27,
-   "volume": 1310.73,
+   "ask_size": 18738.27,
+   "volume": 1360.73,
    "flag_side": ""
   },
   {
