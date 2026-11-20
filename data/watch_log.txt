@@ -32,3 +32,12 @@ Call log:
 2026-11-18 21:14:10 NEW LIST #1 Obsession
 2026-11-19 09:31:36 NEW LIST #1 Guarding Stars
 2026-11-19 09:32:16 WIKI 14/16 contenders matched, 14 new rows
+2026-11-20 05:51:26 netflix read failed: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.netflix.com/browse/genre/34399", waiting until "domcontentloaded"
+
+2026-11-20 05:51:26 netflix row not found (logged out or page changed?)
+2026-11-20 05:51:26 weekly chart read failed: Page.goto: Navigation to "https://www.netflix.com/tudum/top10/united-states" is interrupted by another navigation to "chrome-error://chromewebdata/"
+Call log:
+  - navigating to "https://www.netflix.com/tudum/top10/united-states", waiting until "domcontentloaded"
+
